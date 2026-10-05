@@ -1,0 +1,50 @@
+﻿id,name,category,status,evidence_level,user_evidence_memory,personalization,proactivity,actions,user_controls,availability_business_model,uncertainties,source_urls,relation,checked_on,hands_on_tested
+chatgpt,ChatGPT（Memory / Pulse）,通用个人助手,已发布；按套餐与地区开放,D,历史对话、保存记忆、自定义指令；部分套餐连接文件与应用,用个人事实与偏好生成回应,定期任务；对话中做提醒与建议,总结、提醒、待办、资料查询,记忆开关、撤回、删除、设置偏好,订阅与地区差异,功能和权限可能按套餐变化,https://openai.com/index/introducing-memory-and-custom-instructions-for-chatgpt/,涉及个人记忆/个性化与主动机制,2026-09-29,False
+gemini,Gemini（Personal Intelligence / Spark / Daily Brief）,通用个人助手,已发布与分区试用并存,P,Gemini 历史及授权 Gmail、Calendar 等个人资料,结合私人资料与记忆风格生成个性化内容,每天简报、计划支持和提醒,总结、整理任务与计划,记忆和数据控制入口受地区与账户限制,具备私人资料接入但覆盖不完全,https://workspace.google.com/blog/product-announcements/personal-intelligence,涉及个人记忆与主动简报,2026-09-29,False
+claude,Claude / Cowork,通用个人助手,已发布；新旧运行方式并存,D,聊天搜索与摘要记忆；项目记忆有边界,延续个人工作背景和约定,定期任务；云端和本地模式,记忆和项目控制可编辑,按版本和账号差异,不同方案对记忆的边界不同,https://www.anthropic.com/news/introducing-claude-cowork,涉及工作型个人记忆与主动支持,2026-09-29,False
+m365,Microsoft 365 Copilot / Autopilot,工作与自主任务,Copilot 已发布；Autopilot 2026-09-25 公告,D,工作数据、聊天推断、显式指令与记忆,个性化工作支持,Autopilot 计划在系统层面执行多步骤任务,推荐执行、任务自动化、邮件与日程动作,用户批准、授权与纠正,企业端部署与许可,Autopilot 的实际释放程度仍在演化,https://www.microsoft.com/en-us/microsoft-365/copilot,涉及工作协助中的长期状态与用户控制,2026-09-29,False
+siri,Siri / Apple Intelligence,OS与跨设备助手,按设备、语言与版本开放,P,个人上下文、邮件照片等授权资料、屏幕与 App 实体,利用个人与当前屏幕上下文,本地主动建议和系统级提醒,控制项与权限集中于系统设置,分设备与系统版本,主动机制随设备和版本变化,https://www.apple.com/apple-intelligence/,涉及跨设备个性化与背景感知,2026-09-29,False
+alexa,Alexa+,OS与跨设备助手,已发布；地区/设备条件,P,家庭事实、饮食偏好、文档、日历等,家庭个性化问答与安排,交通、价格等提醒及日常例程,智能家、日程与隐私设置,功能因地区和设备差异较大,https://www.amazon.com/alexa-plus,涉及家居与日常的长期个性化,2026-09-29,False
+muse,Meta Muse,通用个人助手,2026-09-08 公告；美国逐步开放,P,个人记忆、长期目标、任务上下文,围绕用户计划持续工作,主动进度更新和长期目标追踪,独立手动控制记忆,尚未广泛验证,https://about.fb.com/news/2026/09/muse-ai-assistant/,涉及长期目标驱动的主动支持,2026-09-29,False
+grokbot,Grok Bot,工作与自主任务,2026-08-11 beta 公告,P,对话记忆、工作偏好与工具上下文,团队/个人工作的持续背景,后台持续工作,独立计算机与工作工具,机制细节仍在演化,https://x.ai/blog/grok-bot,涉及持续任务与工具中长周期背景,2026-09-29,False
+perplexity,Perplexity（Comet / Computer / Brain）,通用个人助手,产品已发布；Brain Research Preview,D,个人记忆；Brain 累积任务背景、决策与工具知识,跨会话研究与任务协作,计划执行与研究任务追踪,控制与可见性待核,Brain 是否正式稳定仍需观察,https://www.perplexity.ai/hub/blog/comet,涉及记忆与任务持续跟踪,2026-09-29,False
+lindy,Lindy,工作与自主任务,官方产品在提供,P,可编辑记忆文件、团队知识与工作信息,根据工作背景与约定处理任务,例程与后台工作,邮件、日程及工作流程配置,记忆编辑和权限机制需核实,https://www.lindy.ai/,涉及团队/个人工作记忆与自动化,2026-09-29,False
+manus,Manus（Schedules / Chief of Staff）,工作与自主任务,Schedules 2.0 已发布,P,任务上下文、Projects 文件/连接器/skills,用持续任务及技能编码偏好,定时执行；后台任务与工作流,用户控制和批准入口,不同 skill 的能力不同,https://manus.im/,涉及任务驱动的持续服务与主动安排,2026-09-29,False
+openclaw,OpenClaw,开源与个人代理,公开项目与文档,D,持久记忆、用户事实/偏好；来源与删除机制,检索记忆和长期意图支持持续服务,Heartbeat 定期检查；定时提醒,可配置 memory 与工作流,开源实现细节仍在演进,https://github.com/huggingface/openclaw,涉及开源个人代理的记忆与主动检查,2026-09-29,False
+hermes,Hermes Agent,开源与个人代理,公开项目,P,跨消息渠道的持久记忆与可复用技能,从交互积累工作习惯和技能,支持调度,消息渠道、工具与工作任务,开源设计可配置,https://github.com/buger/agent,涉及跨渠道持久化与技能累积,2026-09-29,False
+zo,Zo Computer,工作与自主任务,产品网站存在；个人记忆能力待核,U,本轮公开正文不足以确认记忆细节,待核,待核,官网主要展示构建与工作案例,待核,https://zo.com/,涉及工作型辅助但记忆证据不足,2026-09-29,False
+qira,Lenovo / Motorola Qira,OS与跨设备助手,2026 年公告、合资格设备早期开放,P,跨设备个人信息、工作与应用背景,个人知识与情境适配,公告描述主动建议与后台智能,多设备权限和回收机制,信息覆盖和地区差异,https://www.lenovo.com/us/en/qira,涉及跨设备与个人场景适配,2026-09-29,False
+personalai,Personal AI,记忆与数字分身基础设施,定位调整；新平台 Early Preview,P,个人 memory stack、知识与语言风格,个人模型/数字分身,本轮未确认统一主动机制,AI 分身控制和编辑,平台定位变动较大,https://personal.ai/,涉及记忆与数字分身构建,2026-09-29,False
+secondme,Second Me / 小己,记忆与数字分身基础设施,官方平台与应用入口,P,个人记忆、身份建模与 Me-Alignment,构建个人 AI 分身,本轮未确认主动机制,AI 分身的可编辑和控制,细节因产品迭代变化,https://secondme.ai/,涉及长期人格与身份记忆,2026-09-29,False
+xiaomi,超级小爱,OS与跨设备助手,已发布；机型/版本分批,D,显式记忆、个人文件与屏幕；对话偏好,个人信息检索与偏好回应,习惯例程、出行准备等厂商级例程,对话记忆控制或撤回,地区和版本差异,https://www.mi.com/,涉及跨设备记忆与日常例程,2026-09-29,False
+huawei,小艺（小艺帮记，原小艺记忆）,OS与跨设备助手,支持设备已发布；功能更名,D,显式记录及对话中的个人信息、偏好、计划,记忆查询、提醒与信号触发,定时提醒与日常帮助,记忆控制入口,功能更名与分批推送,https://consumer.huawei.com/cn/support/content/zh-cn00911050/,涉及记忆型日常助手,2026-09-29,False
+oppo,OPPO 小布 / AI Memory / AI Brief,OS与跨设备助手,按 ColorOS 与机型开放,P,屏幕收藏记忆、日历短信和应用信号,记忆问答与个人推荐,晨晚简报与情境任务提醒,可关闭和清除特定记忆,功能按机型和系统版本,https://www.oppo.com/cn/,涉及记忆与日常简报,2026-09-29,False
+vivo,vivo 蓝心小V,OS与跨设备助手,OriginOS 版本与设备分批,P,记忆、收藏、偏好与出行情境；部分端侧记忆,个人化规划与检索,具体主动触发策略未充分公开,记忆可清理,版本和机型差异,https://www.vivo.com.cn/,涉及端侧记忆与日常规划,2026-09-29,False
+honor,HONOR YOYO / YOYOClaw,OS与跨设备助手,手机生态与 Windows 产品,P,偏好、写作风格和持续工作上下文,个人习惯及计划适配,持续任务/计划；具体触发需配合设备生态,包括工作区控制,生态能力差异,https://www.honor.com/cn/,涉及多端协同与个人习惯,2026-09-29,False
+samsung,Samsung Galaxy AI / Now Brief,OS与跨设备助手,支持机型开放,D,兴趣、使用模式、日程、健康和连接服务,个人日常信息卡片,按日常节奏提供简报/提醒,可以关闭部分功能和数据连接,生态集成和个性化深度不同,https://news.samsung.com/global/galaxy-ai,涉及日常状态感知和主动提示,2026-09-29,False
+doubao,豆包 App,通用个人助手,记忆逐步开放,D,对话总结与显式记忆；文本含语音转写,长期个人信息用于回应,支持日程提醒；相关权限,对话、内容和日历等权限,功能开放分批,https://www.doubao.com/,涉及通用型记忆与提醒,2026-09-29,False
+doubao-phone,豆包手机助手,OS与跨设备助手,官方设备产品；操作功能含 beta,P,屏幕内容、手动屏幕记忆和授权本地信息,结合正在使用的应用协助,任务队列和状态提醒,手动控制记忆与权限,功能细节差异大,https://www.doubao.com/mobile,涉及移动端屏幕上下文与任务跟踪,2026-09-29,False
+kimi,Kimi（Memory / Work / Claw）,通用个人助手,官方功能文档,D,用户显式记忆指令；工作/项目背景,依据个人约定调整回应,帮助目录有计划任务；本轮未深究主动机制,可配置记忆和任务方向,机制与用户控制细节未完整公开,https://kimi.moonshot.cn/,涉及工作场景用户约定与持续任务,2026-09-29,False
+qwen,千问 / Qwen App,通用个人助手,中国公开测试；Task Assistant 曾为邀请 beta,P,当前请求与阿里生态服务上下文,个人生活任务的服务协调,长期自主监测未充分公开,服务入口和功能控制,公开细节不足,https://qianwen.aliyun.com/,涉及任务型个性化与生态集成,2026-09-29,False
+yuanbao,腾讯元宝,通用个人助手,官方入口存在；个人记忆/主动能力待核,U,本轮只确认通用问答和创作入口,待核个性化机制,待核,问答/创作；会议中的外显功能待核,机制待核,https://yuanbao.tencent.com/,涉及通用对话与未核记忆,2026-09-29,False
+replika,Replika,关系陪伴,官方产品与帮助页在提供,D,持续对话、关系与个人经历,陪伴式回应、语音与角色互动,可就过往话题发起 check-in；通知可控,对话、语音和角色互动,关系与记忆边界可调整,https://replika.com/,涉及陪伴型长期记忆与关系维护,2026-09-29,False
+nomic,Nomi AI,关系陪伴,官方产品已发布,D,对话、backstory 与长短期记忆,关系延续和个性化对话,可开关/选择主动消息频率,对话、语音和角色互动,每个 Nomi 的记忆边界由角色设定控制,https://nomic.ai/,涉及陪伴中的情绪记忆,2026-09-29,False
+characterai,Character.AI,关系陪伴,已发布；记忆功能迭代,D,Story Memory、事实与置顶内容,保持角色/故事与对话连续性,本轮未确认主动机制,角色对话,记忆与故事管理,https://beta.character.ai/,涉及角色持续记忆与关系延续,2026-09-29,False
+kindroid,Kindroid,关系陪伴,官方产品页；细节证据有限,P,官网描述会记忆和成长；具体结构未核,个体角色陪伴,本轮未核；不采用论坛说法作为功能证明,角色对话,记忆与成长机制未充分公开,https://kindroid.ai/,涉及陪伴角色和长期成长,2026-09-29,False
+pi,Pi,关系陪伴,官方仍提供 Try Pi；未登录测试,P,对话情境；持久记忆细节未核,情感支持与日常思考协助,未确认,对话,本轮未逐项核控制项,https://pi.ai/,涉及情感陪伴与轻量长期对话,2026-09-29,False
+xingye,星野,关系陪伴,官方产品入口,P,角色设定与互动；真实个人长期记忆未核,角色/沉浸式互动,未确认,角色对话与社区,本轮未核,https://www.xingye.ai/,涉及关系陪伴与角色记忆,2026-09-29,False
+tolan,Tolan,关系陪伴,官方应用订阅产品,P,语音交互与记忆系统,具身角色和日常支持,官方描述知道何时退让；具体主动触发未核,主要语音陪伴,记忆与角色控制未核,https://tolan.ai/,涉及陪伴与语音记忆,2026-09-29,False
+kin,Kin,关系陪伴,官方应用与使用指南,D,对话信息、关系与 Knowledge Map,结合个人知识给出反思和建议,自定义提醒,聊天、反思、个人提醒,可看/删 Knowledge Map,https://www.kin.com/,涉及关系维护中的知识地图,2026-09-29,False
+rosebud,Rosebud,健康与长期支持,官方日记产品,P,个人日记、语音与历史条目,连接个人模式、目标与反思,每周反思报告,日记、习惯与情感支持,声称可编辑历史内容,https://rosebud.ai/,涉及长期自我认知与记忆支持,2026-09-29,False
+oura,Oura Advisor,健康与长期支持,支持设备与会员已开放,D,生理指标、分数、标签、档案与对话；可选健康记录,结合身体状态和个人目标提供建议,可调节提醒和建议,健康数据控制和权限,https://ouraring.com/,涉及医疗/健康个性化建议,2026-09-29,False
+whoop,WHOOP Coach / My Memory,健康与长期支持,2026-05-01 My Memory 官方发布,P,目标、生活习惯、健康背景、事件与传感器数据,长期背景结合当日身体状态,描述性提醒和建议,健康和例程控制,功能更新快,https://www.whoop.com/,涉及健康领域的长期个性化记忆,2026-09-29,False
+googlehealth,Google Health Coach（原 Fitbit personal health coach）,健康与长期支持,服务更名与分区预览并存,P,睡眠、运动、个人健康背景与计划,个人健身、睡眠与恢复建议,按健康状态提供提醒与建议,健康数据控制与权限,功能名变动与分区开放,https://www.google.com/health/,涉及健康个性化支持,2026-09-29,False
+wysa,Wysa,健康与长期支持,官方产品在提供；机构与消费者版本,D,结构化自我报告与反思对话,练习与心理健康支持路径,本轮未核跨场景主动机制,练习、计划和提醒,平台和会话控制,https://www.wysa.io/,涉及心理支持的长期对话状态,2026-09-29,False
+elliq,ElliQ,健康与长期支持,官方设备服务产品,P,日常互动、健康/疼痛记录及长期生活信息,老年人日常支持,用药与日常活动提醒,活动、沟通和照护者控制,用户控制界面较集中,https://elliq.com/,涉及长期陪伴与健康提醒,2026-09-29,False
+youper,Youper,健康与长期支持,已公告 2026-09-30 停服,P,情绪记录与日记,反思与情绪整理,停服后不适用；旧版机制未重建,对话与日记,公告提供数据导出,https://www.youper.ai/,涉及历史案例与情绪记忆,2026-09-29,False
+woebot,Woebot App,健康与长期支持,已于 2025-06-30 退役,D,历史对话产品；本轮主要核停服状态,保留为历史研究案例,当前不适用,当前不可新建或访问旧账户,https://woebothealth.com/,涉及历史平台与健康陪伴案例,2026-09-29,False
+omi,Omi（设备 / Glass DevKit / App）,可穿戴与个人记录,官方设备和应用体系,D,环境语音、对话与个人记录,摘要、可搜索记忆与任务提取,提醒/任务；更广泛的自动总结,录音、摘要和知识控制,设备生态和平台差异,https://omi.me/,涉及可穿戴记录与长期任务记忆,2026-09-29,False
+bee,Bee,可穿戴与个人记录,官方在售；美国发货,P,对话、地点、任务及长期模式,日常摘要、模式与个人信息问答,及时提醒与建议待办,记录、检索；集成控制,具体主动策略待核,https://www.bee.com/,涉及可穿戴和长期日常模式,2026-09-29,False
+limitless,Limitless Pendant / Rewind,可穿戴与个人记录,收购后停售；存量支持/部分区域停服,D,历史语音/屏幕记录,存量记录查询；现役功能受限,按当前存量记录提供检索和问答,保存/删除控制,经营变化影响持续性,https://limitless.ai/,涉及长期记录与可检索记忆,2026-09-29,False
+plaud,PLAUD Note / NotePin,可穿戴与个人记录,官方产品页在售,P,用户录音与转写笔记,Ask Plaud 跨笔记查询、摘要,本轮未确认自主需求发现,录音、摘要和知识控制,不等同于全自主个人代理,https://www.plaud.ai/,涉及个人笔记与知识索引,2026-09-29,False
+rabbit,rabbit r1 / rabbitOS 3,可穿戴与个人记录,OS 3 已发布；部分旧产品退役,D,opt-in memory 访谈、偏好与事实,跨会话记忆与技能,rabbit home 个性消息/提醒,记忆编辑和权限,版本和设备差异,https://www.rabbit.tech/,涉及记忆型助手与消息提醒,2026-09-29,False
